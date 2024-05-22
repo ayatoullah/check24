@@ -1,0 +1,33 @@
+/* pagination.css */
+
+/* Basic pagination styles */
+.pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Active page */
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* Hover effect */
+  .pagination a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  
+  /* Rounded buttons */
+  .pagination a {
+    border-radius: 5px;
+  }
+  
+  /* Add more styles as needed */
+  /* ... */
+  
